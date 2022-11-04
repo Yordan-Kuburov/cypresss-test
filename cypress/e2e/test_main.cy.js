@@ -4,8 +4,8 @@ describe('Place order', () => {
     beforeEach(() => {
         cy.visit ('/', {
             auth: {
-                username: 'glass',
-                password: 'St4n#Sm1th'
+                username: '',
+                password: ''
             },
         })
         cy.intercept('**/baskets').as('restoreBasket')
@@ -45,7 +45,7 @@ describe('Place order', () => {
     //             cy.intercept('PATCH', '**/shipment', {fixture: 'mockShippingMethods.json'})
     //         })
     //response.body.home[0].products[0]
-        console.log(response.body.home[0].products[0])
+        console.log(response.body.home[0].shipmentOptions[0].shipmentHash)
          })
 
     //     cy.getByAutoId("delivery-options-heading", {timeout: 90000})
