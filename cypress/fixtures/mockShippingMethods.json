@@ -1,0 +1,37 @@
+{
+    "home": [
+        {
+            "products": [
+                "BB1306_600"
+            ],
+            "shipmentOptions": [
+                {
+                    "id": "Standard-EFC-2",
+                    "type": "home",
+                    "name": "Mocked standard",
+                    "description": "Standard Delivery",
+                    "carrierName": "DPD",
+                    "carrierService": "Standard",
+                    "carrierServiceCode": "DPD000UK0600000353",
+                    "collection": {
+                        "from": 1667428200000,
+                        "to": 1667428200000
+                    },
+                    "delivery": {
+                        "from": 1667548800000,
+                        "to": 1667595600000
+                    },
+                    "shipmentId": "me",
+                    "isDefault": true,
+                    "price": 0,
+                    "leadTime": "2",
+                    "node": "0625",
+                    "shipmentHash": "bbf6ffa2e3a9c7989f433a326761dd2a435a3543bb0aaa640796f22a0189bad5",
+                    "servedAt": 1667387493823
+                }
+            ]
+        }
+    ],
+    "pudo": [],
+    "cnc": []
+}
