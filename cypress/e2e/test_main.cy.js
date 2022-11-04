@@ -5,7 +5,7 @@ describe('Place order', () => {
         cy.visit ('/', {
             auth: {
                 username: '',
-                password: ' '
+                password: ''
             },
         })
         cy.intercept('**/baskets').as('restoreBasket')
