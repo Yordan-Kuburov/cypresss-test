@@ -69,7 +69,7 @@ describe('Place order', () => {
         cy.wait('@paymentWidgets', {timeout: 90000})
         cy.getByAutoId("name-on-card-field", {timeout: 9000})
         cy.getIframeInputByName("card.number")
-        .type('4200000000000000')
+        .type('4200000000000001')
 
         cy.getByAutoId("expiry-date-field").type('0330')
 
